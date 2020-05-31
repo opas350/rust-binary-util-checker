@@ -1,0 +1,13 @@
+[package]
+name = "rust-binary-util-checker"
+version = "0.1.0"
+authors = ["Javier Reyes"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.1"
+git2 = "0.13.6"
+config = "0.9"
+serde = {version="1.0.110", features=["derive"]}

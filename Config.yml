@@ -1,0 +1,6 @@
+debug: false
+proxy:
+  url: http://localhost.com
+repos:
+  - "/Users/DOU1831/Repo/bat"
+  - "/Users/DOU1831/Repo/bat"

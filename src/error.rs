@@ -1,0 +1,1 @@
+pub fn default_error_handler() {}
