@@ -68,7 +68,6 @@ fn test(repo: Repository) {
 }
 
 fn fetch_origin_master(repo: git2::Repository) -> Result<(), git2::Error> {
-    // ProxyOptions::new().url("http://DOU1831:dou8028Javi@127.0.0.1:3128/");
     let mut proxy = ProxyOptions::new();
     proxy.url("http://127.0.0.1:3128/");
     let mut fo = FetchOptions::new();
